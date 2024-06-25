@@ -1,4 +1,4 @@
-package com.example.HelloAPI;
+package com.example.HelloAPI.Model;
 
 public class Book {
     private String name;
