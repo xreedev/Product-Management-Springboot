@@ -1,14 +1,15 @@
-package com.example.HelloAPI.Model;
+package com.example.LibraryManagement.Model;
 
 public class User {
     private String name;
     private Integer age;
-    private String favrt;
+    private String id;
+
 
     public User(String name, Integer age, String favrt) {
         this.name = name;
         this.age = age;
-        this.favrt = favrt;
+        this.id = favrt;
     }
 
     public String getName() {
@@ -27,11 +28,11 @@ public class User {
         this.age = age;
     }
 
-    public String getFavrt() {
-        return favrt;
+    public String getId() {
+        return id;
     }
 
-    public void setFavrt(String favrt) {
-        this.favrt = favrt;
+    public void setId(String favrt) {
+        this.id = favrt;
     }
 }

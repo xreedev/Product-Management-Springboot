@@ -1,4 +1,4 @@
-package com.example.HelloAPI.Model;
+package com.example.LibraryManagement.Model;
 
 public class HelloModel {
     private String status;

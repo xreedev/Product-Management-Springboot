@@ -1,7 +1,7 @@
-package com.example.HelloAPI.Service;
+package com.example.LibraryManagement.Service;
 
-import com.example.HelloAPI.Model.BookRepository;
-import com.example.HelloAPI.Model.Book;
+import com.example.LibraryManagement.Model.BookRepository;
+import com.example.LibraryManagement.Model.Book;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
