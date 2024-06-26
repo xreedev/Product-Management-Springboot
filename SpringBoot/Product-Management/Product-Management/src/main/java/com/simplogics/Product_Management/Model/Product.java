@@ -9,7 +9,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Entity
 @Data
-@Table(name = "PRODUCT-TABLE")
+@Table
 public class Product {
     @Id
     @GeneratedValue
