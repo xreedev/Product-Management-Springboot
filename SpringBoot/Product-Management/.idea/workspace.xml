@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8ebb8c7-2a11-4ec1-b0df-5f50d2fbdbca" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Model/Product.java" afterDir="false" />
+    <list default="true" id="d8ebb8c7-2a11-4ec1-b0df-5f50d2fbdbca" name="Changes" comment="created repository for product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Management/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,15 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/Pictures/Desktop/Simplogics/SpringBoot/Product-Management&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProductManagementApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dell/Pictures/Desktop/Simplogics/SpringBoot/Product-Management"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,12 +91,30 @@
       <option name="project" value="LOCAL" />
       <updated>1719386781351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created Product model">
+      <option name="closed" value="true" />
+      <created>1719390583683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719390583683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created repository for product">
+      <option name="closed" value="true" />
+      <created>1719390631303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719390631303</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="created Product model" />
+    <MESSAGE value="created repository for product" />
+    <option name="LAST_COMMIT_MESSAGE" value="created repository for product" />
   </component>
 </project>
