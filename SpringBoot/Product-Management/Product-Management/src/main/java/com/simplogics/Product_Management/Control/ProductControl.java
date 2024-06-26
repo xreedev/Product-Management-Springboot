@@ -13,12 +13,12 @@ public class ProductControl {
     ProductService productService;
 
     @PostMapping("/createProduct")
-    public Product addProduct(Product product){
+    public Product addProduct(@RequestBody Product product){
         return productService.saveProduct(product);
     }
 
     @PutMapping("/saveProduct")
-    public Product saveProduct(Product product){
+    public Product saveProduct(@RequestBody Product product){
         return productService.saveProduct(product);
     }
 
