@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8ebb8c7-2a11-4ec1-b0df-5f50d2fbdbca" name="Changes" comment="created repository for product">
+    <list default="true" id="d8ebb8c7-2a11-4ec1-b0df-5f50d2fbdbca" name="Changes" comment="created product repository">
+      <change afterPath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Control/ProductControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Management/src/main/java/com/simplogics/Product_Management/Repository/IProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Management/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -107,14 +107,43 @@
       <option name="project" value="LOCAL" />
       <updated>1719390631303</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated application.properties">
+      <option name="closed" value="true" />
+      <created>1719391166549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719391166549</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created product repository">
+      <option name="closed" value="true" />
+      <created>1719391188454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719391188454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="created Product model" />
     <MESSAGE value="created repository for product" />
-    <option name="LAST_COMMIT_MESSAGE" value="created repository for product" />
+    <MESSAGE value="updated application.properties" />
+    <MESSAGE value="created product repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="created product repository" />
   </component>
 </project>
