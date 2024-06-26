@@ -1,5 +1,5 @@
-package com.example.LibraryManagement.Service;
-import com.example.LibraryManagement.Model.User;
+package com.example.LibraryApplication.Service;
+import com.example.LibraryApplication.Model.User;
 
 import java.util.List;
 

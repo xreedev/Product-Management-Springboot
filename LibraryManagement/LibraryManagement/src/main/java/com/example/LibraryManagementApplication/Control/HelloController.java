@@ -1,6 +1,6 @@
-package com.example.LibraryManagement.Control;
-import com.example.LibraryManagement.Service.BookService;
-import com.example.LibraryManagement.Model.Book;
+package com.example.LibraryApplication.Control;
+import com.example.LibraryApplication.Service.BookService;
+import com.example.LibraryApplication.Model.Book;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

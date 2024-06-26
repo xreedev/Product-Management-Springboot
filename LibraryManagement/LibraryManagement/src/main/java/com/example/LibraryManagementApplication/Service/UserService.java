@@ -1,6 +1,6 @@
-package com.example.LibraryManagement.Service;
+package com.example.LibraryApplication.Service;
 
-import com.example.LibraryManagement.Model.User;
+import com.example.LibraryApplication.Model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
