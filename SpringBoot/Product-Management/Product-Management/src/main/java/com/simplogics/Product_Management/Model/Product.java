@@ -6,7 +6,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-@AllArgsConstructor
+import lombok.NoArgsConstructor;
+
+//@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Data
 @Table
@@ -16,6 +19,6 @@ public class Product {
     private Integer pid;
     private String name;
     private Integer quantity;
-    private float price;
+    private Integer price;
 
 }
