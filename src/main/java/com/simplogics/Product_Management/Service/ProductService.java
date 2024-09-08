@@ -1,6 +1,5 @@
 package com.simplogics.Product_Management.Service;
 import java.util.List;
-
 import com.simplogics.Product_Management.Model.Product;
 import com.simplogics.Product_Management.Repository.IProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +12,6 @@ public class ProductService {
     private IProductRepository productRepository;
 
     public Product saveProduct(Product product){
-        return productRepository.save(product);
-    }
-
-    public Product updateProduct(Product product){
         return productRepository.save(product);
     }
 
